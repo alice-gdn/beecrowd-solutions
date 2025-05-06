@@ -1,4 +1,5 @@
-##  Beecrowd solutions
+##  Beecrowd solutions :bee:
+
 
 Este repositório contém **minhas resoluções em Java** dos exercícios da plataforma [Beecrowd](https://www.beecrowd.com.br/).
 
