@@ -1,9 +1,7 @@
-package exercicios_beecrowd;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex1021 {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +9,7 @@ public class Ex1021 {
 
 		double valor = sc.nextDouble();
 
-		System.out.println("NOTAS: ");
+		System.out.println("NOTAS:");
 
 		int qtd = (int) valor / 100;
 		System.out.println(qtd + " nota(s) de R$ 100.00");
@@ -37,7 +35,7 @@ public class Ex1021 {
 		System.out.println(qtd + " nota(s) de R$ 2.00");
 		valor -= 2 * qtd;
 
-		System.out.println("MOEDAS: ");
+		System.out.println("MOEDAS:");
 
 		qtd = (int) valor;
 		System.out.println(qtd + " moeda(s) de R$ 1.00");

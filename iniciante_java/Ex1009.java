@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1009 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -14,8 +12,7 @@ public class Ex1009 {
 		
 		double comissao = salario + (totalVendasMes * 0.15);
 		
-		System.out.println(nome);
-		System.out.printf("Total = %.2f%n ", comissao);
+		System.out.printf("TOTAL = R$ %.2f%n", comissao);
 		
 		sc.close();
 		

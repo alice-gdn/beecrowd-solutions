@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1007 {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
@@ -14,7 +12,7 @@ public class Ex1007 {
 		
 		int diferenca = (a * b - c * d );
 		
-		System.out.println("Diferenca = " + diferenca);
+		System.out.println("DIFERENCA = " + diferenca);
 		
 		sc.close();
 	}

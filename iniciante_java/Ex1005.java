@@ -1,24 +1,18 @@
-package exercicios_beecrowd;
-
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex1005 {
+public class Main {
 
 	public static void main(String[] args) {
-		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Calculadora de media");
-		
-		System.out.print("Digite a primeira nota:  ");
 		double a = sc.nextDouble();
-		
-		System.out.print("Digite a segunda nota: ");
 		double b = sc.nextDouble();
 		
-		double media = (a + b) / 2;
+		double media = (a * 3.5 + b * 7.5) / 11;
 		
-		System.out.println("Media = " + media );
+		System.out.printf("MEDIA = %.5f%n",  media );
 
 		sc.close();
 	}

@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1003 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -13,7 +11,7 @@ public class Ex1003 {
 		
 		int soma = a + b;
 		
-		System.out.println("Soma = " + soma);
+		System.out.println("SOMA = " + soma);
 		
 		sc.close();
 	}

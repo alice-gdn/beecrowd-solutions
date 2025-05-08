@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1020 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +8,10 @@ public class Ex1020 {
 		
 		int idadeDias = sc.nextInt();
 		
-		System.out.println(idadeDias / 365 + " ano(s) ");
+		System.out.println(idadeDias / 365 + " ano(s)");
 		idadeDias = idadeDias % 365;
 		
-		System.out.println(idadeDias / 30 + " mes(es) ");
+		System.out.println(idadeDias / 30 + " mes(es)");
 		idadeDias = idadeDias % 30;
 		
 		System.out.println(idadeDias + " dia(s)");

@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1017 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -13,7 +11,7 @@ public class Ex1017 {
 	
 	double consumo = (horasViagem * kmHora) / 12.0;
 	
-	System.out.printf(" O consumo de combustivel na viagem sera de: %.3f%n ", consumo);
+	System.out.printf("%.3f%n", consumo);
 	
 	sc.close();
 	}

@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1010 {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
@@ -17,7 +15,7 @@ public class Ex1010 {
 		
 		double total = qtdPecas1 * valor1 + qtdPecas2 * valor2;
 		
-		System.out.printf("Total = %.2f%n ", total);
+		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
 		sc.close();
 		
 		

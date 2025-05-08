@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1004 {
+public class Main {
 
 	public static void main(String[] args) {
 
@@ -13,7 +11,7 @@ public class Ex1004 {
 		
 		int prod = a * b;
 		
-		System.out.println("Produto = " + prod);
+		System.out.println("PROD = " + prod);
 		
 		sc.close();
 	}

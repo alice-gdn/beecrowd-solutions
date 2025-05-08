@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1014 {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -12,7 +10,7 @@ public class Ex1014 {
 		
 		 double consumo = km/combustivel;
 		
-		System.out.printf("Consumo de combustivel por KM = %.3f%n ", consumo );
+		System.out.printf("%.3f km/l%n", consumo);
 		
 		sc.close();
 	}

@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1013 {
+public class Main{
 
 	public static void main(String[] args) {
 
@@ -17,7 +15,8 @@ public class Ex1013 {
 		if (c > maior) {
 			maior = c;
 		}
-		System.out.println("Maior = " + maior);
+		
+		System.out.println(maior + " eh o maior");
 		
 		sc.close();
 	}

@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1015 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -17,7 +15,7 @@ public class Ex1015 {
 	
 	 double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 	 
-	 System.out.printf("Distancia ente os pontos: %.4f%n ", distancia);
+	 System.out.printf("%.4f%n", distancia);
 	 sc.close();
 	}
 

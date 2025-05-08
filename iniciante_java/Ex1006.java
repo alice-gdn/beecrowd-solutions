@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1006 {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -15,7 +13,7 @@ public class Ex1006 {
 		
 		double media =  ((a * 2) + (b * 3) + (c * 5)) / 10;
 		
-		System.out.printf("Media = %.1f%n ",media);
+		System.out.printf("MEDIA = %.1f%n", media);
 		
 		sc.close();
 		

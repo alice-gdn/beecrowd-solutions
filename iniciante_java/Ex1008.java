@@ -1,8 +1,6 @@
-package exercicios_beecrowd;
-
 import java.util.Scanner;
 
-public class Ex1008 {
+public class Main {
 
 	public static void main(String[] args) {
 	
@@ -14,8 +12,8 @@ public class Ex1008 {
 		
 		double salario = horasTrabalhadas * valorHora;
 		
-		System.out.println("Number = " + n);
-		System.out.printf("Salary =  U$ %.2f ",salario);
+		System.out.println("NUMBER = " + n);
+		System.out.printf("SALARY = U$ %.2f%n", salario);
 		
 		sc.close();
 	}

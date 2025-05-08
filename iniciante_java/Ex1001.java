@@ -1,8 +1,7 @@
-package exercicios_beecrowd;
 
 import java.util.Scanner;
 
-public class Ex1001 {
+public class Main {
 
 	public static void main(String[] args) {
 		
